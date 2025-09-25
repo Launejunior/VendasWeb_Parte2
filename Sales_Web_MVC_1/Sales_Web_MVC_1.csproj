@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\NovaPasta1\**" />
+    <Compile Remove="Views\Departamento\**" />
+    <Content Remove="Models\NovaPasta1\**" />
+    <Content Remove="Views\Departamento\**" />
+    <EmbeddedResource Remove="Models\NovaPasta1\**" />
+    <EmbeddedResource Remove="Views\Departamento\**" />
+    <None Remove="Models\NovaPasta1\**" />
+    <None Remove="Views\Departamento\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+</Project>
