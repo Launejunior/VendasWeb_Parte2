@@ -12,7 +12,7 @@ namespace Sales_Web_MVC_1.Models
         public Departamento Departamento { get; set; }
         public ICollection<Sales_Venda_Record> Sales_Vendas { get; set; } 
             = new List<Sales_Venda_Record>();
-        public object Sales_Vendas_ { get; set; }
+        public string? Sales_Vendas_ { get; set; }
 
         public Seller_Vendedor_ () { }
 
